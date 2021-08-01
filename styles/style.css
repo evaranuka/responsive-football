@@ -98,3 +98,14 @@ body{
 .font-logo{
     margin-left: 430px;
 }
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .catagory{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .box{
+        flex-direction: column;
+    }
+}
