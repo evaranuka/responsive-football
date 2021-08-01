@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/* first part styles */
+.blue{
+    background-color: rgb(58, 58, 226);
+}
+.football a{
+    text-decoration: none;
+    color: white;
+    padding-left: 25px;
+    font-size: 15pxpx;
+}
+.banner img{
+    height: 438px;
+    width: 556px;
+    margin-top: 140px;
+}
+.copa{
+    display: flex;
+}
+.first-part h1{
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    padding-left: 50px;
+    margin-top: 100px;
+}
+.first-part a{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    margin-left: 30px;
+    padding: 10px;
+}
+/* players frames */
+.catagory{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 55px;
+    justify-content: center;
+    padding: 36px;
+    margin: 40px;
+}
+.box{
+    cursor: pointer;
+    margin: 6px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 7px;
+}
+.box img{
+    height: 175px;
+    width: 200px;
+    border-radius: 5px;
+}
+/* highlights */
+.highlight{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 20px;
+    padding-left: 20px;
+}
+.single-highlight h1{
+    font-size: 30px;
+}
+.double-highlight img{
+    height: 375px;
+    width: 400px;
+}
+.single-highlight a{
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding: 10px;
+}
+/* last parts */
+.logo{
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    margin-left: 275px;
+    margin-top: 100px;
+    height: 100px;
+    width: 400px;
+}
+.logo p{
+    margin-left: 400px;
+    font-size: 15px;
+}
+.fab, .fas{
+    color: gray;
+    margin-left: 15px;
+}
+.font-logo{
+    margin-left: 430px;
+}
